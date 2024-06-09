@@ -1,33 +1,29 @@
-<ion-header [translucent]="true">
- 
-</ion-header>
-
 <ion-content [fullscreen]="true" class="login-content">
   <div class="top-image-container">
     <img src="./assets/logo.jpg" alt="Logo">
   </div>
 
-  <ion-list>
-    <ion-item>
-      <ion-label position="floating">User</ion-label>
-      <ion-input></ion-input>
+  <form class="schedule-form">
+    <ion-item class="input-item">
+      <ion-label position="floating">Usuario</ion-label>
+      <ion-input type="text" class="custom-input"></ion-input>
     </ion-item>
-    <ion-item>
-      <ion-label position="floating">Password</ion-label>
-      <ion-input type="password" value="NeverGonnaGiveYouUp">
-        <ion-input-password-toggle slot="end"></ion-input-password-toggle>
-      </ion-input>
+
+    <ion-item class="input-item">
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type="tel" class="custom-input"></ion-input>
     </ion-item>
-  </ion-list>
+  </form>
 
   <div class="button-container">
-    <ion-button expand="full">Login</ion-button>
+    <ion-buttons slot="primary" (click)="Login()">
+      <ion-button expand="full">Login</ion-button>
+      </ion-buttons>
+  
   </div>
 
   <div class="social-login-container">
     <h2>Or log in with</h2>
     <ion-icon name="logo-google" class="social-icon"></ion-icon>
-    <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
   </div>
 </ion-content>
-

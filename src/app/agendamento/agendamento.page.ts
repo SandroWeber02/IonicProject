@@ -11,5 +11,6 @@ export class AgendamentoPage implements OnInit {
 
   ngOnInit() {
   }
+  alertButtons = ['Ok'];
 
 }

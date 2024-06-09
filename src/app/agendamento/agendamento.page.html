@@ -29,7 +29,16 @@
       </ion-item>
 
 
-      <ion-button expand="block" type="submit">Agendar</ion-button>
+      <ion-button id="AgendarAlert" expand="block" type="submit">Agendar</ion-button>
+      <ion-alert
+         trigger="AgendarAlert"
+         header="Agendamento Realizado com Sucesso"
+         subHeader="!!!!"
+         message="Ira Chegar ume Mensagem em Seu WhatsApp
+         Confirmando o Agendamento"
+        [buttons]="alertButtons"
+    >
+  </ion-alert>
     </form>
   </ion-card-content>
 
