@@ -1,0 +1,29 @@
+.header-title {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .custom-card {
+    margin: 16px;
+    padding: 16px;
+  }
+
+  .schedule-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-item {
+    margin-bottom: 16px;
+  }
+
+  .custom-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    --padding-start: 8px; /* Ajuste do padding para os inputs */
+  }
+
+  ion-button {
+    margin-top: 16px;
+  }

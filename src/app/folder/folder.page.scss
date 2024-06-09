@@ -1,0 +1,66 @@
+.login-content {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.top-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.top-image-container img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+ion-list {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+ion-item {
+
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ion-label {
+  font-weight: bold;
+}
+
+.button-container {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+ion-button {
+  --background: #3880ff;
+  --border-radius: 8px;
+}
+
+.social-login-container {
+  text-align: center;
+}
+
+.social-login-container h2 {
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.social-icon {
+  font-size: 2.5em; /* Aumenta o tamanho dos ícones */
+  margin: 0 10px;
+  color: #666;
+  cursor: pointer;
+}
