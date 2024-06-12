@@ -1,0 +1,26 @@
+.header-title {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+  }
+  
+  .header-title ion-icon {
+    margin-right: 10px; /* Espaçamento à direita do ícone */
+  }
+
+ion-card {
+    --background: #000000;
+  }
+  
+  ion-button {
+    --background: #071ce0b9;
+  }
+  
+  ion-input, ion-textarea {
+    --padding-start: 8px;
+    --border-radius: 4px;
+    --border-color: #3d3c3c;
+    --background: #ffffff;
+    --color: #000000; /* Adiciona texto preto */
+  }
+  
