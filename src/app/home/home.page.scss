@@ -1,3 +1,12 @@
+.header-title {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  justify-content: center; /* Alinha horizontalmente */
+}
+
+.header-title ion-icon {
+  margin-right: 10px; /* Espaçamento à direita do ícone */
+}
 swiper-slide {
   display: flex;
   justify-content: center;

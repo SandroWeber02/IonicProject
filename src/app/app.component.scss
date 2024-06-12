@@ -1,7 +1,11 @@
+/* Customizações para ion-menu */
+
+/* Fundo do ion-content */
 ion-menu ion-content {
   --background: var(--ion-item-background, var(--ion-background-color, #fff));
 }
 
+/* Espaçamento interno do ion-content */
 ion-menu.md ion-content {
   --padding-start: 8px;
   --padding-end: 8px;
@@ -9,111 +13,130 @@ ion-menu.md ion-content {
   --padding-bottom: 20px;
 }
 
+/* Espaçamento interno do ion-list */
 ion-menu.md ion-list {
   padding: 20px 0;
 }
 
+/* Estilo da nota no ion-menu */
 ion-menu.md ion-note {
   margin-bottom: 30px;
 }
 
+/* Estilo do cabeçalho do ion-list */
 ion-menu.md ion-list-header,
 ion-menu.md ion-note {
   padding-left: 10px;
 }
 
+/* Estilo da borda inferior do ion-list */
 ion-menu.md ion-list#inbox-list {
   border-bottom: 1px solid var(--ion-background-color-step-150, #d7d8da);
 }
 
+/* Estilo do cabeçalho do ion-list inbox-list */
 ion-menu.md ion-list#inbox-list ion-list-header {
   font-size: 22px;
   font-weight: 600;
-
   min-height: 20px;
 }
 
+/* Estilo do cabeçalho do ion-list labels-list */
 ion-menu.md ion-list#labels-list ion-list-header {
   font-size: 16px;
-
   margin-bottom: 18px;
-
   color: #757575;
-
   min-height: 26px;
 }
 
+/* Estilo dos itens do ion-list */
 ion-menu.md ion-item {
   --padding-start: 10px;
   --padding-end: 10px;
   border-radius: 4px;
 }
 
+/* Estilo do item selecionado */
 ion-menu.md ion-item.selected {
   --background: rgba(var(--ion-color-primary-rgb), 0.14);
 }
 
+/* Cor do ícone no item selecionado */
 ion-menu.md ion-item.selected ion-icon {
   color: var(--ion-color-primary);
 }
 
+/* Cor do ícone nos itens */
 ion-menu.md ion-item ion-icon {
   color: #616e7e;
 }
 
+/* Estilo da label nos itens */
 ion-menu.md ion-item ion-label {
   font-weight: 500;
 }
 
+/* Customizações específicas para iOS */
+
+/* Espaçamento inferior no ion-content para iOS */
 ion-menu.ios ion-content {
   --padding-bottom: 20px;
 }
 
+/* Espaçamento interno do ion-list para iOS */
 ion-menu.ios ion-list {
   padding: 20px 0 0 0;
 }
 
+/* Estilo da nota no ion-menu para iOS */
 ion-menu.ios ion-note {
   line-height: 24px;
   margin-bottom: 20px;
 }
 
+/* Estilo dos itens no ion-list para iOS */
 ion-menu.ios ion-item {
   --padding-start: 16px;
   --padding-end: 16px;
   --min-height: 50px;
 }
 
+/* Cor do ícone no item selecionado para iOS */
 ion-menu.ios ion-item.selected ion-icon {
   color: var(--ion-color-primary);
 }
 
+/* Tamanho do ícone nos itens para iOS */
 ion-menu.ios ion-item ion-icon {
   font-size: 24px;
   color: #73849a;
 }
 
+/* Estilo do cabeçalho do ion-list labels-list para iOS */
 ion-menu.ios ion-list#labels-list ion-list-header {
   margin-bottom: 8px;
 }
 
+/* Estilo do cabeçalho e nota para iOS */
 ion-menu.ios ion-list-header,
 ion-menu.ios ion-note {
   padding-left: 16px;
   padding-right: 16px;
 }
 
+/* Estilo da nota para iOS */
 ion-menu.ios ion-note {
   margin-bottom: 8px;
 }
 
+/* Estilo geral da nota */
 ion-note {
   display: inline-block;
   font-size: 16px;
-
   color: var(--ion-color-medium-shade);
 }
 
+/* Cor do texto do item selecionado */
 ion-item.selected {
   --color: var(--ion-color-primary);
 }
