@@ -1,0 +1,16 @@
+ion-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  ion-list {
+    flex: 1;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  

@@ -1,77 +1,49 @@
 .login-content {
- 
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 0;
 }
 
 .top-image-container {
+  width: 100%;
+  height: 200px; /* Ajuste a altura conforme necessário */
+  background-color: #ffffff;
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
 }
 
 .top-image-container img {
-  max-width: 150px;
-  border-radius: 50%;
-}
-
-ion-list {
   width: 100%;
-  max-width: 400px;
-  margin-bottom: 20px;
+  height: 100%;
+  object-fit: cover; /* Adapta a imagem para cobrir todo o container */
 }
 
-ion-item {
-
-  border-radius: 8px;
-  margin-bottom: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.schedule-form {
+  padding: 16px;
 }
 
-ion-label {
-  font-weight: bold;
+.input-item {
+  margin-bottom: 16px;
 }
 
 .button-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  align-items: center;
+  height: 10%; /* Ajuste para garantir que ocupe o espaço vertical necessário */
+  padding: 16px;
 }
-
-.button-container ion-button {
-  --background: #3880ff; /* Cor de fundo */
-  --color: white; /* Cor do texto */
-  --border-radius: 8px; /* Bordas arredondadas */
-  --font-size: 18px; /* Tamanho da fonte */
-  --padding: 12px 24px; /* Espaçamento interno */
-  --box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-  --hover-background: #4c8dff; /* Cor de fundo ao passar o mouse */
-  --hover-box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
-  transition: background-color 0.3s, box-shadow 0.3s; /* Transições suaves */
-}
-
-.button-container ion-button:hover {
-  --background: var(--hover-background);
-  --box-shadow: var(--hover-box-shadow);
-}
-
 
 .social-login-container {
   text-align: center;
-}
-
-.social-login-container h2 {
-  margin: 20px 0;
-  font-size: 1.2em;
-  color: #333;
+  padding: 16px;
 }
 
 .social-icon {
-  font-size: 2.5em; /* Aumenta o tamanho dos ícones */
-  margin: 0 10px;
-  color: #666;
-  cursor: pointer;
+  font-size: 24px;
+  margin-top: 8px;
 }

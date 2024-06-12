@@ -15,4 +15,36 @@ ion-fab {
     --background: #4c8dff; /* Cor de fundo ao passar o mouse */
     --box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
   }
+
+  swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-card {
+    width: 90%; /* reduzimos a largura para evitar vazamento */
+    height: 70vh; /* ajustamos a altura para evitar vazamento */
+    border: 1px solid #000; /* adicionamos uma borda ao card */
+  }
+  
+  .custom-card img {
+    object-fit: cover; /* a imagem ainda preencherá o card */
+    width: 100%;
+    height: 50%; /* reduzimos a altura da imagem para preservar o título do card, o conteúdo e o botão */
+    border: 5px solid #000; /* adicionamos uma borda à imagem */
+  }
+  
+  ion-card-header,
+  ion-card-content,
+  ion-button {
+    width: 100%; /* garantimos que o título, o conteúdo e o botão ocupem toda a largura do card */
+  }
+  
+  ion-button {
+    width: 50%; /* reduzimos a largura do botão */
+    font-size: 0.8em; /* reduzimos o tamanho da fonte do botão */
+    display: block; /* definimos o botão como elemento de bloco */
+    margin: 0 auto; /* centralizamos o botão */
+  }
   

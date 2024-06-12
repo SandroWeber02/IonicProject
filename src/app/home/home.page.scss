@@ -1,11 +1,19 @@
-.header-title {
-    margin-bottom: 16px;
-  }
+swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .card-spacing {
-    margin-bottom: 16px;
-  }
+.custom-card {
+  width: 90%; /* reduzimos a largura para evitar vazamento */
+  height: 70vh; /* ajustamos a altura para evitar vazamento */
+  border: 1px solid #CBE8F5; /* adicionamos uma borda ao card */
+}
 
-  .item-spacing {
-    margin-bottom: 12px;
-  }
+.custom-card img {
+  object-fit: cover; /* a imagem ainda preencherá o card */
+  width: 100%;
+  height: 75%; /* reduzimos a altura da imagem para preservar o título do card */
+  border: 5px solid #CBE8F5; /* adicionamos uma borda à imagem */
+}
+
